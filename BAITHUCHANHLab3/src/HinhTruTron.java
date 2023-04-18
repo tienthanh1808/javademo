@@ -11,14 +11,14 @@ public class HinhTruTron {
 
     void nhapBanKinh() {
         Scanner sc = new Scanner(System.in);
-        System.err.print("Nhap Ban Kinh");
+        System.err.print("Nhap Ban Kinh = ");
         banKinh = sc.nextFloat();
 
     }
 
     void nhapChieuCao() {
         Scanner sc = new Scanner(System.in);
-        System.err.print("Nhap Chieu Cao");
+        System.err.print("Nhap Chieu Cao = ");
         banKinh = sc.nextFloat();
 
     }

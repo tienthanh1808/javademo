@@ -33,6 +33,6 @@ public class NhanVien {
         System.out.println();
         System.out.printf(" HeSoLuong = %f", HeSoLuong);
         System.out.println();
-        System.out.printf("TienLuong = %f", tinhTienLuong());
+        System.out.printf(" TienLuong = %f", tinhTienLuong());
     }
 }
