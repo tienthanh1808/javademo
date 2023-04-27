@@ -11,6 +11,7 @@ public class App {
         HinhTron ht = new HinhTron();
         ht.xuatTen();
         ht.nhapBanKinh();
+        ht.tinhChuVi();
         ht.tinhDienTich();
         ht.inChuVi();
         ht.inDienTich();

@@ -43,7 +43,7 @@ public class HinhTruTron {
 
     void inThongTin() {
         System.out.printf(
-                "Hinh tru tron co: banKinh = %f; chieuCao = %f; chuVi = %f; dienTichHaiDay = %f;dienTichToanPhan = %f; theTich = %f",
+                "Hinh tru tron co: banKinh = %f; chieuCao = %f; chuVi = %f; dienTichHaiDay = %f;dienTichToanPhan = %f; theTich = %f;",
                 banKinh, chieuCao,
                 tinhChuVi(), tinhDienTichHaiDay(), tinhDienTichToanPHan(), tinhTheTich());
     }

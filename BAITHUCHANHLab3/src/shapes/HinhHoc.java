@@ -1,13 +1,49 @@
 package shapes;
 
-import java.security.PublicKey;
+import java.util.Scanner;
 
 public class HinhHoc {
-    public final float PI = 3.14f;
-    public String ten;
-    public float chuVi;
-    public float dienTich;
-    public float theTich;
+    private final float PI = 3.14f;
+    private String ten;
+    private float chuVi;
+    private float dienTich;
+    private float theTich;
+
+    public float getPI() {
+        return this.PI;
+    }
+
+    public String getTen() {
+        return ten;
+    }
+
+    public void setTen(String ten) {
+        this.ten = ten;
+    }
+
+    public float getChuVi() {
+        return this.chuVi;
+    }
+
+    public void setChuVi(float chuVi) {
+        this.chuVi = chuVi;
+    }
+
+    public float getDienTich() {
+        return this.dienTich;
+    }
+
+    public void setDienTich(float dienTich) {
+        this.dienTich = dienTich;
+    }
+
+    public float getTheTich() {
+        return this.theTich;
+    }
+
+    public void setTheTich(float theTich) {
+        this.theTich = theTich;
+    }
 
     public void xuatTen() {
         System.out.println("\n\n=====" + ten + " =====");

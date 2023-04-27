@@ -3,10 +3,18 @@ package shapes;
 import java.util.Scanner;
 
 public class HinhTru extends HinhTron {
-    public float chieuCao;
+    private float chieuCao;
 
     public HinhTru() {
-        ten = "Hình Trụ";
+        this.setTen("HinhTru");
+    }
+
+    public float getChieuCao() {
+        return this.chieuCao;
+    }
+
+    public void setChieuCao(float chieuCao) {
+        this.chieuCao = chieuCao;
     }
 
     public void nhapChieuCao() {
@@ -18,6 +26,6 @@ public class HinhTru extends HinhTron {
 
     public void tinhTheTich() {
         tinhDienTich();
-        theTich = dienTich * chieuCao;
+        setTheTich(getDienTich() * getChieuCao());
     }
 }

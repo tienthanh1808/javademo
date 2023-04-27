@@ -3,12 +3,28 @@ package shapes;
 import java.util.Scanner;
 
 public class HinhChuNhat extends HinhHoc {
-    public float dai;
-    public float rong;
+    private float dai;
+    private float rong;
 
     public HinhChuNhat() {
-        ten = "Hình Chữ Nhật";
+        this.setTen(" HinhChuNhat");
 
+    }
+
+    public float getDai() {
+        return this.dai;
+    }
+
+    public void setDai(float dai) {
+        this.dai = dai;
+    }
+
+    public float getRong() {
+        return this.rong;
+    }
+
+    public void setRong(float rong) {
+        this.rong = rong;
     }
 
     public void nhapChieuDai() {
@@ -25,10 +41,10 @@ public class HinhChuNhat extends HinhHoc {
     }
 
     public void tinhChuVi() {
-        chuVi = 2 * (dai + rong);
+        setChuVi(2 * (dai + rong));
     }
 
     public void tinhDienTich() {
-        dienTich = dai * rong;
+        setDienTich(dai * rong);
     }
 }
