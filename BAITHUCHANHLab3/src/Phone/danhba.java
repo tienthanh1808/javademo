@@ -28,10 +28,10 @@ public class danhba {
     public void Update(danhba arr[]) {
         String str;
         System.out.println("Nhap vao ten nguoi muon cap nhat so dien thoai");
-        String ten = sc.nextLine();
+        String Fullname = sc.nextLine();
         boolean kt = false;
         for (int i = 0; i < arr.length; i++) {
-            if (arr[i].ten.equals(str)) {
+            if (arr[i].Fullname.equals(str)) {
                 System.out.println("Nhap vao so dien thoai");
                 int sdt = sc.nextInt();
                 arr[i].soDienThoai = sdt;
