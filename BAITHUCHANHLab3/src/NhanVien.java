@@ -3,8 +3,7 @@ import java.util.Scanner;
 public class NhanVien {
     public static void main(String[] args) throws Exception {
         NhanVien nv = new NhanVien();
-        nv.Tuoi = 30;
-        nv.HeSoLuong = 10;
+        nv.nhapThongTin(); // Thêm dòng này để nhập thông tin nhân viên từ bàn phím
         nv.inThongTin();
     }
 

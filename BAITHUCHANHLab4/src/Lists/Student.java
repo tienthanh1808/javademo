@@ -1,5 +1,6 @@
 package Lists;
 
+import java.util.List;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -34,14 +35,11 @@ public class Student {
                 arr.set(i, std);
             }
          }
-
-   public static void Inthongtin(Set<Student> arr){
-            for (int i = 0; i < arr.size(); i++){
-                System.out.printf("Sinh vien: %s, tuoi: %d", arr.get(i).FullName, arr.get(i).Age)
-            }
         }
-}
 
-}
-
+    public static void Inthongtin(Set<Student> arr) {
+        for (int i = 0; i < arr.size(); i++) {
+            System.out.printf("Sinh vien: %s, tuoi: %d", arr.get(i).FullName, arr.get(i).Age);
+        }
+    }
 }
